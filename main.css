@@ -26,6 +26,9 @@
     -webkit-columns: 1;
     -moz-columns: 1;
   }
+  .github {
+    display: block;
+  }
 }
 ul {
   padding-left: 30px;
