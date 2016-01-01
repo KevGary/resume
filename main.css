@@ -1,26 +1,58 @@
+/* HEADER */
 .job-title {
   font-weight: lighter;
   font-size: smaller;
 }
 .personal-link {
   display: inline;
-  margin-left: 16px;
+  /*margin-left: 12px;*/
+  margin-right: 12px;
 }
+.email {
+  /*margin-left: 4px;*/
+}
+/* END HEADER */
+
+/* SKILLS */
 .skill-header {
   font-weight: bold;
 }
 .skill-description, .project-description {
   font-style: italic;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .technologies > ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}
+ul {
+  padding-left: 30px;
+/*  list-style-position: inside;
+  /*list-style-type: none;*/
+}
+.technologies > ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+/* END SKILLS */
+
+/* PROJECTS */
 .project-link, .education-link {
   font-size: smaller;
   font-weight: lighter;
 }
 .project-description {
-  font-size: 16px;
-/*  font-weight: lighter;*/
+/*  font-size: 16px;
+*//*  font-weight: lighter;*/
   margin-left: 12px;
 }
+/* END PROJECTS */
+
+/* EDUCATION */
 .education {
   margin-bottom: 100px;
 }
+/* END EDUCATION */
