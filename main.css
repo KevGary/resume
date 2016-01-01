@@ -1,0 +1,29 @@
+.job-title {
+  font-weight: lighter;
+  font-size: smaller;
+}
+.personal-link {
+  display: inline;
+  margin-left: 16px;
+}
+.email {
+  margin: 0px;
+}
+.skill-header {
+  font-weight: bold;
+}
+.skill-description, .project-description {
+  font-style: italic;
+}
+.project-link, .education-link {
+  font-size: smaller;
+  font-weight: lighter;
+}
+.project-description {
+  font-size: 16px;
+/*  font-weight: lighter;*/
+  margin-left: 12px;
+}
+.education {
+  margin-bottom: 100px;
+}
